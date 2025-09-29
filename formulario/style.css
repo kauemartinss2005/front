@@ -26,6 +26,7 @@
   margin: 0 auto;
 }
 
+/* urubu do pix / menu */
 .texto {
   width: 100%;
   height: 3rem;
@@ -38,17 +39,13 @@
   display: flex;
 }
 
-.box {
-  border-radius: 10px;
-  height: 15rem;
-  width: 15rem;
-}
-
+/* unidade das neves */
 .bolhas {
   position: absolute;
   display: flex;
 }
 
+/* modificação de cada neve */
 .bolhas span {
   width: 7px;
   height: 7px;
@@ -58,6 +55,7 @@
   animation: animar calc(30s / var(--i)) 5s linear infinite;
 }
 
+/* a forma em que elas caem de cima para baixo */
 @keyframes animar {
   0% {
     transform: translateY(-10vh) scale(0);
@@ -67,6 +65,7 @@
   }
 }
 
+/* config de todos os botões */
 button {
   width: 50px;
   border-radius: 5px;
@@ -78,10 +77,12 @@ button {
   color: #fff;
 }
 
+/* transiçãozinha de zoom ao passar o cursor */
 button:hover {
   transform: scale(1.1);
 }
 
+/* config de todos os h3 */
 h3 {
   color: rgb(255, 255, 255);
   font-family: "Bitcount", Prop, Single, Ink;
@@ -117,11 +118,13 @@ h2 {
   margin: 10px;
 }
 
+/* texto enganador */
 .texto-input {
   text-align: center;
   margin: 2rem;
 }
 
+/* input e botão "enviar" levando a outra pagina */
 .caixa-texto {
   position: relative;
   height: 2rem;
@@ -129,13 +132,7 @@ h2 {
   justify-content: center;
 }
 
-.caixa-dentro {
-  background: transparent;
-  margin-top: 20px;
-  height: 20px;
-  color: #fff;
-}
-
+/* "p" que incentiva a pessoa digitar um valor */
 .caixa-texto-2 {
   color: #00ff00;
   display: flex;
@@ -144,11 +141,13 @@ h2 {
   margin-top: 20px;
 }
 
+/* feito para centralizar a imagem da tabela */
 .img-tabela {
   display: block;
   margin: 0 auto;
 }
 
+/* configuração da imagem da tabela */
 .img2 {
   width: 9rem;
   height: 9rem;
@@ -157,6 +156,7 @@ h2 {
   display: flex;
 }
 
+/* criado para definar a div dos input "radio" */
 .div-bancos {
   display: flex;
   flex-direction: column;
@@ -165,10 +165,11 @@ h2 {
   border: 2px solid #ffffff;
   border-radius: 5px;
   text-align: center;
-  width: 300px; /* precisa ter largura definida */
+  width: 300px;
   margin: 0 auto;
 }
 
+/* nubank */
 .div-banco-1 {
   color: #fff;
   flex-direction: column;
@@ -176,6 +177,7 @@ h2 {
   margin-top: 1%;
 }
 
+/* mercado pago */
 .div-banco-2 {
   color: #fff;
   flex-direction: column;
@@ -183,6 +185,7 @@ h2 {
   margin-top: 1%;
 }
 
+/* santander */
 .div-banco-3 {
   color: #fff;
   flex-direction: column;
@@ -190,17 +193,20 @@ h2 {
   margin-top: 1%;
 }
 
+/* criei pra poder centralizar com "margin-top" */
 .texto-banco {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
+/* texto que incentiva a pessoa a selecionar um banco */
 .p-seleçao-banco {
   font-family: monospace;
   color: #00ff00;
 }
 
+/* definições da div que tem o texto da barra final */
 .barra-final {
   background-color: #9aa19a1c;
   padding: 10px;
@@ -212,10 +218,12 @@ h2 {
   margin-top: 180px;
 }
 
+/* define a cor do texto da barra final */
 .texto-barra-final-1 {
   color: #fff;
 }
 
+/* define a cor do texto da barra final */
 .texto-barra-final-2 {
   color: #fff;
 }
